@@ -1,4 +1,4 @@
-package teste.ReprodutorMusical;
+package desafio_iphone.ReprodutorMusical;
 
 public class Ipod implements ReprodutorMusical{
 

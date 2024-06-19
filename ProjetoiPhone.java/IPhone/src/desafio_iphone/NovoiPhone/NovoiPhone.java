@@ -1,7 +1,7 @@
-package teste.NovoiPhone;
-import teste.Navegador.NavegadorNaInternet;
-import teste.ReprodutorMusical.ReprodutorMusical;
-import teste.Telefones.AparelhoTelefonico;
+package desafio_iphone.NovoiPhone;
+import desafio_iphone.Navegador.NavegadorNaInternet;
+import desafio_iphone.ReprodutorMusical.ReprodutorMusical;
+import desafio_iphone.Telefones.AparelhoTelefonico;
 
 public class NovoiPhone implements ReprodutorMusical, NavegadorNaInternet, AparelhoTelefonico {
        

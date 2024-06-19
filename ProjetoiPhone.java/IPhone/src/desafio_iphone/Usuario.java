@@ -1,8 +1,8 @@
-package teste;
-import teste.Navegador.NavegadorNaInternet;
-import teste.ReprodutorMusical.ReprodutorMusical;
-import teste.Telefones.AparelhoTelefonico;
-import teste.NovoiPhone.NovoiPhone;
+package desafio_iphone;
+import desafio_iphone.Navegador.NavegadorNaInternet;
+import desafio_iphone.NovoiPhone.NovoiPhone;
+import desafio_iphone.ReprodutorMusical.ReprodutorMusical;
+import desafio_iphone.Telefones.AparelhoTelefonico;
 
 public class Usuario {
     public static void main(String[] args) {

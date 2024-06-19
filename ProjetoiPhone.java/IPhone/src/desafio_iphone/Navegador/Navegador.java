@@ -1,13 +1,9 @@
-package teste.Navegador;
+package desafio_iphone.Navegador;
 
 public class Navegador implements NavegadorNaInternet
 {
-
-   // @Override
-    public void navegar() {
+        public void navegar() {
         System.out.println("entrando na internet ");
-        // TODO Auto-generated method stub
-        
     }
     
 }
