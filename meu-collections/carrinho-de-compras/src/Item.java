@@ -5,6 +5,9 @@ public class Item {
     public Item(String descricao) {
         //TODO Auto-generated constructor stub
     }
+    public Item(String nome2, double preco2, int quantidade2) {
+        //TODO Auto-generated constructor stub
+    }
     @Override
     public String toString() {
         return "Item [nome=" + nome + ", quantidade=" + quantidade + ", preco=" + preco + "]";
