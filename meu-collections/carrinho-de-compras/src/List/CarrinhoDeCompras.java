@@ -1,3 +1,4 @@
+package List;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +10,7 @@ public class CarrinhoDeCompras {
     this.itemList = new ArrayList<>();
   }
 
-  public void adicionarItem(String nome, double preco, int quantidade) {
+  public void adicionarItem(String nome, Double preco, int quantidade) {
     Item item = new Item(nome, preco, quantidade);
     this.itemList.add(item);
   }
@@ -64,13 +65,13 @@ public class CarrinhoDeCompras {
     carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
     carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
     carrinhoDeCompras.adicionarItem("Caderno", 35d, 1);
-    carrinhoDeCompras.adicionarItem("Borracha", 2d, 2);
+    carrinhoDeCompras.adicionarItem("Borracha", 2d, 2);//
 
     // Exibindo os itens no carrinho
     carrinhoDeCompras.exibirItens();
 
     // Removendo um item do carrinho
-    carrinhoDeCompras.removerItem("Lápis");
+    carrinhoDeCompras.removerItem("Caderno");
 
     // Exibindo os itens atualizados no carrinho
     carrinhoDeCompras.exibirItens();
