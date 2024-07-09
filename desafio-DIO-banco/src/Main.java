@@ -6,6 +6,7 @@ public static void main (String[]args){
 Conta cc = new ContaCorrente(venilton);
 Conta poupanca = new ContaPoupanca(venilton);
 cc.depositar(100);
+cc.transferir(15,poupanca);
 cc.ImprimirExtrato();
 poupanca.ImprimirExtrato();
 }
